@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import chef from '../../../public/chef.jpg'
+import chef from '../../public/chef.jpg'
 import SmallCard from './smallCard'
 const Section1 = () => {
     return (

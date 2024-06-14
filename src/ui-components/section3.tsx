@@ -1,7 +1,7 @@
 import React from 'react'
 import SmallCard from './smallCard'
 import Image from 'next/image'
-import pic from '../../../public/home-corporate-pk.webp'
+import pic from '../../public/home-corporate-pk.jpg'
 
 const Section3 = () => {
     return (

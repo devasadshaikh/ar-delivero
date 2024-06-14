@@ -1,8 +1,8 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { Button } from "../../components/ui/button";
-import foodpanda from "../../../public/foodpanda.webp"
+import { Button } from "../components/ui/button";
+import foodpanda from "../../public/foodpanda.webp"
 import { InputWithButton } from "@/components/ui/inputWithButton";
 const HeroSection = () => {
     return (
