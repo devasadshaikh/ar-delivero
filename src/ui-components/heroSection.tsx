@@ -7,13 +7,13 @@ import { InputWithButton } from "@/components/ui/inputWithButton";
 const HeroSection = () => {
     return (
         <>
-        <div className=" bg-slate-300">
+        <div className=" bg-slate-50">
             <div className="   items-center flex justify-between  sm:px-10">
                 {/* Left Side */}
                 <div className="md:w-[614px] w-full space-y-8 ">
 
                     <h1 className="text-3xl font-bold sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl leading-tight mt-8">
-                       ` It's the food and groceries you love, delivered`
+                        It's the food and groceries you love, delivered
                     </h1>
                     <div className=" w-full h-22 py-5 shadow-lg shadow-slate-400 bg-white rounded-xl items-center justify-center flex ">
 

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import logo from "../../public/logo.png"
 const NavBar = () => {
     return (
         <>
@@ -9,10 +10,10 @@ const NavBar = () => {
                         <div className="flex items-center justify-between text-gray-900">
                             <a href="#"
                                 className="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased">
-                                Food Panda
+                                <Image src={logo} alt="logo" width={100} height={100}/>
                             </a>
                             <div className="flex items-center gap-4">
-                                <div className="hidden mr-4 lg:block">
+                                {/* <div className="hidden mr-4 lg:block">
                                     <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
                                         <li className="block p-1 font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
                                             <a href="#" className="flex items-center">
@@ -35,7 +36,7 @@ const NavBar = () => {
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div className="flex items-center gap-x-1">
                                     <button
                                         className="hidden px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
@@ -43,7 +44,7 @@ const NavBar = () => {
                                         <span>Log In</span>
                                     </button>
                                     <button
-                                        className="hidden select-none rounded-lg bg-gradient-to-tr from-gray-900 to-gray-800 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                                        className="hidden select-none rounded-lg bg-[#D70F64] py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white  transition-all hover:shadow-lg hover:py-3 hover:px-5  active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
                                         type="button">
                                         <span>Sign in</span>
                                     </button>

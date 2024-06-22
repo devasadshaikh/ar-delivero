@@ -10,7 +10,7 @@ import Footer from "../ui-components/footer";
 export default function Home() {
   return (
     <>
-      <div className="  container  px-0     overscroll-x-none">
+      <div className="  contain-content  px-0     overscroll-x-none">
 
         {/* <h1 className=" text-blue-600 text-2xl">Home Page</h1> */}
         <NavBar />

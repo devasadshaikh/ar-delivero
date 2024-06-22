@@ -3,42 +3,42 @@ import Image from 'next/image'
 const cards = [
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     },
     {
         image: "/mazar.jpg",
-        title: "Mazar",
+        title: "Karachi",
 
     }
 ]

@@ -7,7 +7,7 @@ const Section1 = () => {
         <>
         <div className=' mt-20'>
             <h1 className=' text-3xl font-bold ml-24'  >You prepare the food, we handle the rest</h1>
-            <SmallCard />
+            <SmallCard pixels=' mt-64' />
             <Image src={chef} alt='chef ' width={1400} height={0} className=' mt-5 relative -z-10'></Image>
             
 

@@ -1,13 +1,15 @@
 import React from 'react'
-
+import Image from 'next/image'
+import logo from '../../public/logo.png'
 const Footer = () => {
   return (
     <>
     <footer className=" mt-40 relative w-full">
+    <hr className="h-px mb-5 bg-gray-200 border-0 dark:bg-gray-700"></hr>
   <div className="w-full px-8 mx-auto max-w-7xl">
     <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
       <h5 className="block mb-6 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-inherit">
-        Food Panda
+      <Image src={logo} alt="logo" width={100} height={100}/>
       </h5>
       <div className="grid justify-between grid-cols-3 gap-4">
         <ul>
