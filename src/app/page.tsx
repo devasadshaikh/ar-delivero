@@ -6,6 +6,7 @@ import Section2 from "../ui-components/section2";
 import Section3 from "../ui-components/section3";
 import FAQS from "../ui-components/faqs";
 import Footer from "../ui-components/footer";
+import Section4 from "../ui-components/section4";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Section1 />
         <Section2 />
         <Section3/>
+        <Section4/>
         <FAQS/>
         <Footer/>
       </div>

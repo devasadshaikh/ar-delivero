@@ -58,9 +58,9 @@ const Section2 = () => {
 
                                         <Image src={item.image} alt={item.title} width={100} height={100} className=' relative -z-30 rounded-lg w-screen h-fit' />
 
-                                 
-                                            <h1 className=' font-bold mt-2'>{item.title}</h1>
-                                        
+
+                                        <h1 className=' font-bold mt-2'>{item.title}</h1>
+
                                     </div>
                                 )
                             })

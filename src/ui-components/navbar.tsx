@@ -10,7 +10,7 @@ const NavBar = () => {
                         <div className="flex items-center justify-between text-gray-900">
                             <a href="#"
                                 className="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased">
-                                <Image src={logo} alt="logo" width={100} height={100}/>
+                                <Image src={logo} alt="logo" width={100} height={100} />
                             </a>
                             <div className="flex items-center gap-4">
                                 {/* <div className="hidden mr-4 lg:block">
