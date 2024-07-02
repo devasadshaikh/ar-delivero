@@ -1,46 +1,74 @@
 import mazar from '../../././../public/mazar.jpg'
 import Image from 'next/image'
+
 const cards = [
     {
-        image: "/mazar.jpg",
+        image: "/Karachi.jpg",
         title: "Karachi",
 
     },
     {
-        image: "/mazar.jpg",
-        title: "Karachi",
+        image: "/abbottabad.jpg",
+        title: "Abbottabad",
+
+    },
+    
+    {
+        image: "/dera.webp",
+        title: "DI Khan",
+
+    },
+
+    {
+        image: "/islamabad.jpg",
+        title: "Islamabad",
+
+    },
+   
+    {
+        image: "/kamoke.jpg",
+        title: "Kamoke",
 
     },
     {
-        image: "/mazar.jpg",
-        title: "Karachi",
+        image: "/larkana.webp",
+        title: "Larkana",
+
+    },
+    
+    {
+        image: "/murree.jpg",
+        title: "Muree",
 
     },
     {
-        image: "/mazar.jpg",
-        title: "Karachi",
+        image: "/okera.jpg",
+        title: "Okara",
+
+    },
+   
+    
+    {
+        image: "/sadiqabad.jpg",
+        title: "Sadiqabad",
+
+    },
+   
+    {
+        image: "/sheikhupura.jpg",
+        title: "Sheikhupura",
 
     },
     {
-        image: "/mazar.jpg",
-        title: "Karachi",
+        image: "/sialkot.jpg",
+        title: "Sialkot",
 
     },
     {
-        image: "/mazar.jpg",
-        title: "Karachi",
+        image: "/sukkur.jpg",
+        title: "Sukkur",
 
     },
-    {
-        image: "/mazar.jpg",
-        title: "Karachi",
-
-    },
-    {
-        image: "/mazar.jpg",
-        title: "Karachi",
-
-    }
 ]
 
 const Section2 = () => {
